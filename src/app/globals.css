@@ -19,6 +19,6 @@ body {
 
 @media (max-width: 500px) {
   .blured-element {
-    -webkit-filter: blur(100px);
+    -webkit-filter: blur(120px);
   }
 }
