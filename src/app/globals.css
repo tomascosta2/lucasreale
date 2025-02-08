@@ -12,3 +12,7 @@ body {
 .lr-btn {
   @apply text-[14px] bg-gradient-to-r from-[#AC0702] to-[#FF5E07] rounded-[8px] font-semibold py-[22px] md:px-[82px] block md:w-[480px] w-full text-center mx-auto
 }
+
+.blured-element {
+  -webkit-filter: blur(230px);
+}
