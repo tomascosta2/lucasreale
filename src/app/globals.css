@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+  background: #16151B;
+  font-family: 'Inter Variable', sans-serif !important;
+}
+
+.lr-btn {
+  @apply text-[14px] bg-gradient-to-r from-[#AC0702] to-[#FF5E07] rounded-[8px] font-semibold py-[22px] md:px-[82px] block md:w-[480px] w-full text-center mx-auto
 }
