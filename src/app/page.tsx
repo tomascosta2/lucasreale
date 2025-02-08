@@ -4,8 +4,8 @@ import Faqs from "./components/faqs";
 export default function Home() {
   return (
     <div className="relative overflow-clip">
-      <div className="blured-element size-[690px] bg-[#2278FE]/70 _blur-[230px] rounded-full absolute left-[calc(50%-345px)] -top-[320px]"></div>
-      <div className="blured-element size-[690px] bg-[#2278FE]/70 rounded-full _blur-[230px] absolute -right-[200px] top-[1000px] md:top-[800px]"></div>
+      <div className="blured-element size-[690px] bg-[#2278FE]/50 md:bg-[#2278FE]/70 _blur-[230px] rounded-full absolute left-[calc(50%-345px)] -top-[320px]"></div>
+      <div className="blured-element size-[690px] bg-[#2278FE]/50 md:bg-[#2278FE]/70 rounded-full _blur-[230px] absolute -right-[200px] top-[1000px] md:top-[800px]"></div>
       <section className="relative py-[60px] md:py-[80px] px-4">
         <div className="max-w-[1200px] mx-auto">
           <p className="mb-4 text-[14px] w-fit font-semibold py-[12px] px-[25px] backdrop-blur-3xl rounded-full border border-white/20 mx-auto">+50 mujeres ya consiguieron su cambio...</p>
