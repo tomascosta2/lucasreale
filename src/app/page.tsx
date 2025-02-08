@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <p className="text-white/80 text-[14px] leading-[100%]">5.0 Estrallas de +50 reseñas</p>
           </div>
-          <h3 className="text-center text-[32px] font-bold mb-4 capitalize leading-[130%]">No lo pienses más, ¡Tu mejor versión te está esperando!</h3>
+          <h3 className="text-center text-[28px] md:text-[32px] font-bold mb-4 capitalize leading-[130%]">No lo pienses más, ¡Tu mejor versión te está esperando!</h3>
           <p className="text-[18px] text-center text-white/80 mb-8">¿Sabías que el 80% de las mujeres sienten frustración porque no logran los resultados que desean con su cuerpo? No sigas postergando tu bienestar. Tu momento es ahora.</p>
           <div>
             <a className="lr-btn mt-4 hover:-translate-y-2 transition-all" href="#!">Consulta Gratuita »</a>
