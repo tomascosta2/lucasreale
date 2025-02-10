@@ -11,10 +11,20 @@ export default function Home() {
           <p className="mb-4 text-[14px] w-fit font-semibold py-[12px] px-[25px] backdrop-blur-3xl rounded-full border border-white/20 mx-auto">+50 mujeres ya consiguieron su cambio...</p>
           <h1 className="text-[28px] leading-[34px] md:text-[40px] font-bold text-center md:leading-[50px] drop-shadow-[0_0px_12px_rgba(0,0,0,0.25)] max-w-[1050px] mx-auto">Ayudo a mujeres ocupadas a <span className="md:underline underline-offset-[6px] decoration-2">Transformar su Cuerpo y Calidad de Vida</span> en 12 semanas <span className="hidden md:inline">con un plan integral, flexible y adaptado a su ciclo hormonal.</span></h1>
           <p className="text-[18px] text-center text-white/80 mt-4">¿Estás buscando un cambio? ¡Mira el video y descubre mi método!</p>
-          <iframe className="w-[990px] max-w-full aspect-video mx-auto my-8 shadow-2xl shadow-white/10" src="https://fast.wistia.net/embed/iframe/uhpm1crmcy?web_component=true&seo=true" title="VSL . LANDING Video" allow="autoplay; fullscreen" frameBorder="0" scrolling="no"></iframe>
+          <iframe className="rounded-lg w-[990px] max-w-full aspect-video mx-auto my-8 shadow-2xl shadow-white/10" src="https://fast.wistia.net/embed/iframe/uhpm1crmcy?web_component=true&seo=true" title="VSL . LANDING Video" allow="autoplay; fullscreen" frameBorder="0" scrolling="no"></iframe>
           <div>
             <a className="lr-btn mt-4 hover:-translate-y-2 transition-all" href="#!">Consulta Gratuita »</a>
             <p className="text-center text-[14px] text-white/80 mt-2">¡Últimas plazas disponibles! Reserva antes de que se acaben.</p>
+          </div>
+          <div className="flex gap-2 flex-col md:flex-row items-center justify-center mt-8">
+            <div className="flex gap-[4px]">
+              <svg className="size-[20px]" fill="#EEBE13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" /></svg>
+              <svg className="size-[20px]" fill="#EEBE13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" /></svg>
+              <svg className="size-[20px]" fill="#EEBE13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" /></svg>
+              <svg className="size-[20px]" fill="#EEBE13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" /></svg>
+              <svg className="size-[20px]" fill="#EEBE13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" /></svg>
+            </div>
+            <p className="text-white/80 text-[14px] leading-[100%]">5.0 Estrallas de +50 reseñas</p>
           </div>
         </div>
       </section>
@@ -38,10 +48,10 @@ export default function Home() {
           <p className="text-center text-[14px] text-white/80 mt-2">¡Últimas plazas disponibles! Reserva antes de que se acaben.</p>
         </div>
       </section>
-      <section className="py-[60px] md:py-[80px] px-4 relative">
+      <section className="py-[60px] md:py-[80px] px-4 relative bg-[#FDFDFD]">
         <div className="max-w-[700px] mx-auto">
-          <h2 className="text-[28px] font-bold mb-4">Transforma tu cuerpo y tu vida en 12 semanas, sin dietas imposibles ni entrenamientos que odias</h2>
-          <p className="text-[18px] whitespace-pre-wrap">
+          <h2 className="text-[28px] text-[#111] font-bold mb-4">Transforma tu cuerpo y tu vida en 12 semanas, sin dietas imposibles ni entrenamientos que odias</h2>
+          <p className="text-[18px] text-[#111] whitespace-pre-wrap">
             <strong>Y no... No es magia.</strong>
             <br />
             <br />
