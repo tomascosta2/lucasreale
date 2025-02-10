@@ -102,7 +102,7 @@ export default function Home() {
           </p>
           <div className="mt-8">
             <a className="lr-btn mt-4 hover:-translate-y-2 transition-all" href="#!">Consulta Gratuita »</a>
-            <p className="text-center text-[14px] text-white/80 mt-2">¡Últimas plazas disponibles! Reserva antes de que se acaben.</p>
+            <p className="text-center text-[14px] text-[#111]/80 mt-2">¡Últimas plazas disponibles! Reserva antes de que se acaben.</p>
           </div>
         </div>
       </section>
