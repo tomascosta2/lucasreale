@@ -28,19 +28,44 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-[60px] md:py-[80px] relative px-4 hidden">
-        <div className="max-w-[1080px] mx-auto">
-          <h2 className="font-bold text-[40px]">Ellas ya probaron mi metodo...</h2>
-          <p className="text-[18px] text-white/80 mt-2">Y transformaron su cuerpo, su vida y su confianza PARA SIEMPRE.</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 my-8 gap-4">
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
-            <div className="w-full aspect-[9/16] bg-gray-400"></div>
+      <section className="py-[60px] md:py-[80px] relative px-4">
+        <div className="max-w-[750px] mx-auto">
+          <h2 className="font-bold text-[40px] text-center">Ellas ya probaron mi metodo...</h2>
+          <p className="text-[18px] text-white/80 mt-2 text-center w-[400px] mx-auto">Y transformaron su cuerpo, su vida y su confianza PARA SIEMPRE.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 my-8 gap-x-4 gap-y-8">
+            <div>
+              <h5 className="mb-2 text-center font-semibold">"Lucas me dijo vas a cambiar, y si que cambie"</h5>
+              <div className="w-full aspect-[9/16] rounded-sm">
+                <iframe src="https://fast.wistia.net/embed/iframe/40s1gwoq0g?web_component=true&seo=true" title="copy_8F0BA151-762F-4A8C-B898-34088B52D4D6 Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+            <div>
+              <h5 className="mb-2 text-center font-semibold">"Me siento más saludable y mejor"</h5>
+              <div className="w-full aspect-[9/16] rounded-sm">
+                <iframe src="https://fast.wistia.net/embed/iframe/3qanwml9jv?web_component=true&seo=true" title="copy_DCA3B3E3-4DDC-45E0-8AC0-DE6316AFF48F Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+            <div>
+              <h5 className="mb-2 text-center font-semibold">"Necesitaba algo muy personalizado"</h5>
+              <div className="w-full aspect-[9/16] rounded-sm">
+                <iframe src="https://fast.wistia.net/embed/iframe/9dbxiilc57?web_component=true&seo=true" title="copy_DCA3B3E3-4DDC-45E0-8AC0-DE6316AFF48F Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+            <div>
+              <h5 className="mb-2 text-center font-semibold">"Antes del gimnasio tenia depresión"</h5>
+              <div className="w-full aspect-[9/16] rounded-sm">
+                <iframe src="https://fast.wistia.net/embed/iframe/ionap2jzlj?web_component=true&seo=true" title="copy_DCA3B3E3-4DDC-45E0-8AC0-DE6316AFF48F Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+            <div>
+              <h5 className="mb-2 text-center font-semibold">"Es una locura lo que te cambia el cuerpo y el animo"</h5>
+              <div className="w-full aspect-[9/16] rounded-sm">              
+                <iframe src="https://fast.wistia.net/embed/iframe/pbctigzdbj?web_component=true&seo=true" title="copy_DCA3B3E3-4DDC-45E0-8AC0-DE6316AFF48F Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
+              </div>
+            </div>
+            {/* <div className="bg-orange-500 p-12">
+              <h3 className="text-white font-semibold">¿Queres ser la proxima? Hace clic y agenda tu consulta gratuita ahora</h3>
+            </div> */}
           </div>
         </div>
         <div>

@@ -2,11 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #16151B;
+  --foreground: #401BC0;
+}
 
 body {
   color: #FFF;
-  background: #16151B;
+  background: var(--background);
   font-family: 'Inter Variable', sans-serif !important;
+}
+
+/* 
+  Scrollbar 
+*/
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track,
+body {
+  background: var(--background);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--foreground) !important; 
+  border-radius: 20px;
+  border: 5px solid var(--background);
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 .lr-btn {
