@@ -159,7 +159,7 @@ export default function Home() {
         </div>
       </section>
       <Faqs />
-      <p className="text-center py-8 text-white/80">©Lucas Reale 2025. Todos los derechos reservados.</p>
+      <p className="text-center py-8 text-white/80">© Lucas Reale 2025. Todos los derechos reservados.</p>
     </div>
   );
 }
