@@ -4,11 +4,18 @@ import Faqs from "./components/faqs";
 export default function Home() {
   return (
     <div className="relative overflow-clip">
-      <div className="blured-element size-[690px] bg-[#2278FE]/50 md:bg-[#2278FE]/70 _blur-[230px] rounded-full absolute left-[calc(50%-345px)] -top-[320px]"></div>
+      <div className="blured-element size-[690px] bg-[#2278FE]/50 md:bg-[#2278FE]/70 _blur-[230px] rounded-full absolute -left-[200px] -top-[320px]"></div>
       <div className="blured-element size-[690px] bg-[#2278FE]/50 md:bg-[#2278FE]/70 rounded-full _blur-[230px] absolute -right-[200px] top-[1000px] md:top-[800px]"></div>
       <section className="relative py-[60px] md:py-[80px] px-4">
         <div className="max-w-[1200px] mx-auto">
-          <p className="mb-4 text-[14px] w-fit font-semibold py-[12px] px-[25px] backdrop-blur-3xl rounded-full border border-white/20 mx-auto">+50 mujeres ya consiguieron su cambio...</p>
+          <div className="mb-6 flex gap-4 items-center justify-center">
+            <div className="flex">
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2" src="" alt="" />
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2 -ms-2" src="" alt="" />
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2 -ms-2" src="" alt="" />
+            </div>
+            <p className="text-[16px] w-fit font-semibold rounded-full">+50 mujeres ya consiguieron su cambio</p>
+          </div>
           <h1 className="text-[28px] leading-[34px] md:text-[40px] font-bold text-center md:leading-[50px] drop-shadow-[0_0px_12px_rgba(0,0,0,0.25)] max-w-[1050px] mx-auto">Ayudo a mujeres ocupadas a <span className="md:underline underline-offset-[6px] decoration-2">Transformar su Cuerpo y Calidad de Vida</span> en 12 semanas <span className="hidden md:inline">con un plan integral, flexible y adaptado a su ciclo hormonal.</span></h1>
           <p className="text-[18px] text-center text-white/80 mt-4">¿Estás buscando un cambio? ¡Mira el video y descubre mi método!</p>
           <iframe className="rounded-lg w-[990px] max-w-full aspect-video mx-auto my-8 shadow-2xl shadow-white/10" src="https://fast.wistia.net/embed/iframe/uhpm1crmcy?web_component=true&seo=true" title="VSL . LANDING Video" allow="autoplay; fullscreen" frameBorder="0" scrolling="no"></iframe>
