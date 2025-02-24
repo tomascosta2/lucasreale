@@ -10,9 +10,9 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto">
           <div className="mb-6 flex gap-4 items-center justify-center">
             <div className="flex">
-              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2" src="" alt="" />
-              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2 -ms-2" src="" alt="" />
-              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border border-2 -ms-2" src="" alt="" />
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border-2" src="/images/perfil-1.jpg" alt="Cliente de Lucas Reale Fitness" />
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border-2 -ms-2" src="/images/perfil-2.jpg" alt="Cliente de Lucas Reale Fitness" />
+              <img className="bg-gray-400 min-w-[45px] rounded-full size-[45px] border-2 -ms-2" src="/images/perfil-3.jpg" alt="Cliente de Lucas Reale Fitness" />
             </div>
             <p className="text-[16px] w-fit font-semibold rounded-full">+50 mujeres ya consiguieron su cambio</p>
           </div>
