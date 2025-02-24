@@ -16,7 +16,7 @@ export default function Home() {
             </div>
             <p className="text-[16px] w-fit font-semibold rounded-full">+50 mujeres ya consiguieron su cambio</p>
           </div>
-          <h1 className="text-[28px] leading-[34px] md:text-[40px] font-bold text-center md:leading-[50px] drop-shadow-[0_0px_12px_rgba(0,0,0,0.25)] max-w-[1050px] mx-auto">Ayudo a mujeres ocupadas a <span className="md:underline underline-offset-[6px] decoration-2">Transformar su Cuerpo y Calidad de Vida</span> en 12 semanas <span className="hidden md:inline">con un plan integral, flexible y adaptado a su ciclo hormonal.</span></h1>
+          <h1 className="text-[28px] leading-[34px] md:text-[40px] font-bold text-center md:leading-[50px] drop-shadow-[0_0px_12px_rgba(0,0,0,0.25)] max-w-[1050px] mx-auto">Ayudo a mujeres ocupadas a Transformar su Cuerpo y Calidad de Vida <span className="underline underline-offset-[6px] decoration-2">en 12 semanas</span> <span className="hidden md:inline">con un plan integral, flexible y adaptado a su ciclo hormonal.</span></h1>
           <p className="text-[18px] text-center text-white/80 mt-4">¿Estás buscando un cambio? ¡Mira el video y descubre mi método!</p>
           <iframe className="rounded-lg w-[990px] max-w-full aspect-video mx-auto my-8 shadow-2xl shadow-white/10" src="https://fast.wistia.net/embed/iframe/uhpm1crmcy?web_component=true&seo=true" title="VSL . LANDING Video" allow="autoplay; fullscreen" frameBorder="0" scrolling="no"></iframe>
           <div>
