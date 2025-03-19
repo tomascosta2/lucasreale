@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="w-[46%] md:w-[31.5%] grow-1">
               <h5 className="mb-2 text-center font-semibold h-[72px] flex items-end justify-center md:h-fit">"Es una locura lo que te cambia el cuerpo y el animo"</h5>
-              <div className="w-full aspect-[9/16] rounded-sm">              
+              <div className="w-full aspect-[9/16] rounded-sm">
                 <iframe src="https://fast.wistia.net/embed/iframe/pbctigzdbj?web_component=true&seo=true" title="copy_DCA3B3E3-4DDC-45E0-8AC0-DE6316AFF48F Video" allow="autoplay; fullscreen" scrolling="no" name="wistia_embed" width="100%" height="100%"></iframe>
               </div>
             </div>
@@ -82,55 +82,43 @@ export default function Home() {
       </section>
       <section className="py-[60px] md:py-[80px] px-4 relative bg-[#FDFDFD]">
         <div className="max-w-[700px] mx-auto">
-          <h2 className="text-[28px] text-[#111] font-bold mb-4">Transforma tu cuerpo y tu vida en 12 semanas, sin dietas imposibles ni entrenamientos que odias</h2>
+          <h2 className="text-[28px] text-[#111] font-bold mb-4">Transformá tu cuerpo y tu vida en 12 semanas, sin dietas ridículas ni entrenamientos que odiás.</h2>
           <p className="text-[18px] text-[#111] whitespace-pre-wrap">
-            <strong>Y no... No es magia.</strong>
+            Y no… no es magia.
+            <br /><br />
+            ¿Te pasó de probar mil cosas y sentir que nada funciona a largo plazo?
+            Te entiendo. Con el ritmo de vida que llevás, lo último que necesitás es otro plan imposible que te haga sentir frustrada o culpable por no poder seguirlo.
+            <br /><br />
+            Por eso creé un método pensado para vos. Un plan integral, flexible y diseñado para que logres resultados reales, sin pelearte con tu cuerpo. Porque sí, tu cuerpo tiene ciclos y necesidades específicas que la mayoría de los entrenadores ignoran.
+            <br /><br />
+            Este no es otro programa más. Es TU programa.
+            <br /><br />
+            Imaginate esto:
+            <br /><br />
+            Comer lo que te gusta sin culpa ni restricciones absurdas.
+            Ver cambios en tu cuerpo sin dejar de disfrutar de tu vida.
+            Sentirte con más energía y fuerza que nunca.
+            Saber que cada comida y cada entrenamiento tiene un propósito, porque están ajustados a lo que tu cuerpo necesita en cada etapa.
+            Y lo mejor de todo…
+            No vas a tener que vivir contando calorías, ni dejar de salir con amigos, ni pasarte horas en el gimnasio. Porque este plan se adapta a vos, no vos al plan.
+            <br /><br />
+            ¿Por qué funciona?
             <br />
-            <br />
-            <strong>¿Estás cansada de probar de todo y no ver resultados duraderos?</strong>
-            <br />
-            Lo entiendo. Como mujer ocupada, lo último que necesitas es un plan más que te haga sentir frustrada y culpable por no cumplirlo.
-            <br />
-            <br />
-            Por eso, he creado un método diseñado para ti. Un plan integral, flexible y adaptado a lo que tu cuerpo realmente necesita, teniendo en cuenta algo que pocos entrenadores consideran: tu ciclo hormonal.
-            <br />
-            <br />
-            <strong>Este no es otro programa genérico. Es TU programa.</strong>
-            <br />
-            <br />
-            Imagina esto:
-            <br />
-            - Comer lo que te gusta sin sentir que estás “pecando”.
-            <br />
-            - Ver resultados reales y consistentes mientras te sientes más enérgica que nunca.
-            <br />
-            - Saber que cada ejercicio y cada comida tiene un propósito, porque están hechos a medida para ti.
-            <br />
-            <br />
-            ¿La mejor parte? No tendrás que sacrificar tu vida social, tus momentos en familia ni tu tiempo para ti. Porque este plan se adapta a tu ritmo, no al revés.
-            <br />
-            <br />
-            <strong>¿Por qué este método funciona?</strong>
-            <br />
-            Porque no se trata solo de transformar tu cuerpo.Se trata de enseñarte a trabajar con tu cuerpo, no contra él. De construir hábitos sostenibles, sin presiones ni extremos. De acompañarte en un proceso que va mucho más allá de un número en la báscula.
-            <br />
-            <br />
-            <strong>Ya lo han vivido otras mujeres como vos:</strong>
-            <br />
-            "Nunca pensé que podría disfrutar entrenar. Ahora me siento más fuerte, más segura y, lo más importante, más feliz." – Carla M.
-            <br />
-            "Lucas entendió mis necesidades desde el día 1. No es solo un entrenador, es un guía que realmente se preocupa por ti." – Mariana G.
-            <br />
-            <br />
-            <strong>¿Estás lista para tomar el control de tu cuerpo y tu vida?</strong>
-            <br />
-            <br />
-            <strong>El PRIMER PASO es sencillo:</strong>
-            <br />
-            Haz clic en el botón de abajo, agenda tu llamada y descubre cómo puedes empezar este viaje hoy mismo.
-            <br />
-            <br />
-            No dejes pasar otro día sintiéndote frustrada o agotada. Tu mejor versión te está esperando. Y Lucas está aquí para ayudarte a alcanzarla.
+            Porque no se trata solo de bajar de peso o ganar músculo.
+            Se trata de aprender a trabajar con tu cuerpo, no contra él.
+            De construir hábitos sostenibles sin presiones ni extremos.
+            De transformar tu físico, tu energía y tu bienestar sin volverte loca en el intento.
+            <br /><br />
+            Mirá lo que dicen otras mujeres que ya lo lograron:
+            "Nunca pensé que podía disfrutar entrenar. Hoy me siento más fuerte, segura y feliz con mi cuerpo." – Carla M.
+            "Lucas entendió mis necesidades desde el día 1. No es solo un entrenador, es un guía que realmente se preocupa por vos." – Mariana G.
+            <br /><br />
+            Tu mejor versión está al alcance de una decisión.
+            El primer paso es simple:
+            Hacé clic en el botón de abajo, agendá tu llamada y empezá hoy mismo.
+            <br /><br />
+            No sigas dejando pasar el tiempo sintiéndote igual.
+            Vos podés cambiarlo. Y yo estoy acá para ayudarte a lograrlo.
           </p>
           <div className="mt-8">
             <a className="lr-btn mt-4 hover:-translate-y-2 transition-all" href="https://calendly.com/lucasrcoachperson/presentacion-del-programa-vsl">Reserva Tu Consulta Gratuita Ahora »</a>
