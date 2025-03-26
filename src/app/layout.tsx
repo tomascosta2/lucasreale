@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="https://tu-sitio.com/ruta-de-la-imagen.jpg"></meta>
+      </head>
       <body>
         {children}
       </body>
